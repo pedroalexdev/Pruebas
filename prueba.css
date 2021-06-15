@@ -1,20 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-body{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: aqua;
-    color: rgb(78, 72, 72);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: aqua;
+  color: #4e4848;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-header{
-    width: 100%;
-    height: auto;
-    border: 2px solid green;
-    text-align: center;
+
+header {
+  width: 100%;
+  height: auto;
+  border: 2px solid green;
+  text-align: center;
 }
+/*# sourceMappingURL=prueba.css.map */
