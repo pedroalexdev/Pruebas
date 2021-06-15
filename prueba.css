@@ -7,4 +7,14 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
     color: rgb(78, 72, 72);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: auto;
+    border: 2px solid green;
+    text-align: center;
 }
